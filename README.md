@@ -10,6 +10,7 @@ Connote number generator for FMCC
 - Postman
 # Working
 The application runs on Tomcat server.
+Use the " mvn spring-boot: run" command on terminal to run the application.
 The application has api accesspoint: /connoteApi/carrierAccount which accepts request body of following format:
 {
   "carrierName":"FreightmateCourierco",
