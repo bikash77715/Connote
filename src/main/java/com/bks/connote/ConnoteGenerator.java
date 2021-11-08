@@ -1,20 +1,14 @@
 package com.bks.connote;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component
 public class ConnoteGenerator {
-    private final String prefix = "FMCC";
+    private final String prefix = "FMCC"; // default prefix for the organization
 
     @Autowired
     private ConsoleLogger logger;
-
-    private static ConnoteGenerator connoteGenerator = new ConnoteGenerator();
-    private ConnoteGenerator(){
-
-    }
-    public static ConnoteGenerator getInstance() {
-        return connoteGenerator;
-    }
 
     // function to generate the connote number
     public String generateConnote(CarrierAccount carrierAccount) {

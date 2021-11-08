@@ -3,6 +3,7 @@ package com.bks.connote;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.web.bind.annotation.RequestBody;
 
 @SpringBootTest
 class ConnoteApplicationTests {
@@ -12,7 +13,7 @@ class ConnoteApplicationTests {
 	}
 
 	@Test
-	void testAcceptCarrierAccount(){
+	void testAcceptCarrierAccount() throws Exception{
 		/* input
 		{
 			"carrierName":"FreightmateCourierCo",
