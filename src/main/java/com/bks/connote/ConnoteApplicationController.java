@@ -13,7 +13,7 @@ public class ConnoteApplicationController {
     @Autowired
     private ConnoteGenerator connoteGenerator;
 
-    //function that accepts a carrier account
+    //api that accepts a carrier account
     @PostMapping("/carrierAccount")
     public String acceptCarrierAccount(@RequestBody CarrierAccount carrierAccount){
 

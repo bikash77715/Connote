@@ -8,7 +8,7 @@ public class ConnoteGenerator {
     private final String prefix = "FMCC"; // default prefix for the organization
 
     @Autowired
-    private ConsoleLogger logger;
+    private ConsoleLogger logger; // for logging system events in console
 
     // function to generate the connote number
     public String generateConnote(CarrierAccount carrierAccount) {

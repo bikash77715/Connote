@@ -1,5 +1,6 @@
 package com.bks.connote;
 
+// Class to represent carrier account
 public class CarrierAccount {
     private String carrierName;
     private String accountNumber;
