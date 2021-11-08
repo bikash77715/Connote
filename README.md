@@ -1,7 +1,7 @@
 # Connote
 Connote number generator for FMCC
 
-#Used technologies
+# Used technologies
 - Maven
 - Java 8
 - Sprint boot (2.5.6)
@@ -39,7 +39,7 @@ The number is padded with 0's to make the index "digits" characters long. 19605 
  - Get the difference between that number and the next multiple of 10, this is our checksum
   ( 100 - 99 = 1 )
   
-#Classes
+# Classes
 CarrierAccount class represents the carrier account. 
 ConnoteApplication class is the main class of the app.
 ConnoteApplicationController is the rest-controller class.
